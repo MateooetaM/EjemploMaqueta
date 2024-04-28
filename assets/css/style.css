@@ -97,3 +97,31 @@ article h2 {
 article p {
     margin-bottom: 1rem;
 }
+
+aside {
+    border-left: 1px solid var(--border);
+    padding: 2rem 1rem;
+    grid-area: aside;
+}
+
+aside .widget {
+    margin-bottom: 2rem;
+}
+
+aside .widget h3 {
+    margin-bottom: 0.5rem;
+}
+
+aside .widget ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+aside .widget a {
+    color: var(--primary);
+}
+
+aside .widget a:hover {
+    text-decoration: underline;
+}
+
