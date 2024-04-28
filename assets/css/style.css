@@ -50,6 +50,10 @@ a {
     font-weight: 700;
 }
 
+.main-menu a:hover {
+    color: var(--primary);
+}
+
 .main-menu a {
     color: var(--white);
 }
@@ -58,4 +62,25 @@ a {
     list-style: none;
     display: flex;
     gap: 1rem;
+} 
+
+header {
+    background: url("../img/header.jpg");
+    background-position: center 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    margin-bottom: 2rem;
+    grid-area: header;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.25em;
 }
