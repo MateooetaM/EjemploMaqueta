@@ -84,3 +84,16 @@ header h1 {
 header p {
     font-size: 1.25em;
 }
+
+article {
+    padding: 2rem;
+    grid-area: article;
+}
+
+article h2 {
+    margin-bottom: 2rem;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
